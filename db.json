@@ -1,6 +1,5 @@
 {
   "houses": [
-   
     {
       "name": "tys",
       "ownerName": "sdryse",
@@ -22,6 +21,28 @@
       "bachelor": true,
       "image": "gyhs",
       "id": 4
+    },
+    {
+      "name": "sera",
+      "ownerName": "sdtz",
+      "address": "tdxrt",
+      "areaCode": "qwwedtzd",
+      "rent": "1245",
+      "married": false,
+      "bachelor": true,
+      "image": "sDASEr",
+      "id": 5
+    },
+    {
+      "name": "sda",
+      "ownerName": "dfa",
+      "address": "dfa",
+      "areaCode": "aaa",
+      "rent": "123",
+      "married": false,
+      "bachelor": true,
+      "image": "zdf",
+      "id": 6
     }
   ]
 }

@@ -12,7 +12,7 @@ function App() {
       <button className="toggleForm" onClick={()=>{
         setToggle(toggle ? false : true)
       }}>
-       {toggle? "Show Rentals" : "Add Houses"}
+       {toggle? "Add Houses" : "Show Rentals"}
 
       </button>
       {toggle?   <Rentals/> :<AddHouse/>}

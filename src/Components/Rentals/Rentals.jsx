@@ -31,12 +31,28 @@ const sortrenstdec=()=>{
 }
 
 const sortAreaacs=()=>{
-  data.sort(function (a,b) {return a.areaCode-b.areaCode});
+  data.sort(function(a,b){
+    if(a.areaCode>b.areaCode){
+      return 1;
+    }
+    if(a.areaCode<b.areaCode){
+      return -1;
+    }
+    return 0;
+  });
   setData([...data]);
 }
 
 const sortAreadsc=()=>{
-  data.sort(function (a,b) {return b.areaCode-a.areaCode});
+  data.sort(function(a,b){
+    if(a.areaCode<b.areaCode){
+      return 1;
+    }
+    if(a.areaCode>b.areaCode){
+      return -1;
+    }
+    return 0;
+  });
   setData([...data]);
 }
 
