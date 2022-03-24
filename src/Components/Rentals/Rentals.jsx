@@ -4,6 +4,7 @@ import "./Rentals.css";
 
 export const Rentals = () => {
   const [data,setData]=useState([]);
+  const [inputAddress,setInput]=useState("");
   useEffect(()=>{
 getData()
 return (()=>{
@@ -56,6 +57,16 @@ const sortAreadsc=()=>{
   setData([...data]);
 }
 
+const handleChange=(e)=>{
+  let value=e.target.value;
+let result=data.filter((e)=>{
+  if(e.address==value){
+    return true;
+  }
+})
+setData([...result]);
+}
+
 
   return (
     <div className="rentalContainer">
@@ -70,6 +81,7 @@ const sortAreadsc=()=>{
         className="searchAddress"
         type="text"
         placeholder="Search Address"
+        onChange={(e)=>handleChange(e)}
       />
       <table className="table" border="1">
         <thead>

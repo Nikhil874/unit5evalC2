@@ -15,7 +15,7 @@ function App() {
        {toggle? "Add Houses" : "Show Rentals"}
 
       </button>
-      {toggle?   <Rentals/> :<AddHouse/>}
+      {toggle?<Rentals/> :<AddHouse/>}
       <br />
     </div>
   );
