@@ -1,0 +1,27 @@
+{
+  "houses": [
+   
+    {
+      "name": "tys",
+      "ownerName": "sdryse",
+      "address": "styutds",
+      "areaCode": "tyus",
+      "rent": "13",
+      "married": false,
+      "bachelor": true,
+      "image": "gyhs",
+      "id": 3
+    },
+    {
+      "name": "xfyx",
+      "ownerName": "xfgx",
+      "address": "xgjxj",
+      "areaCode": "tyusvgjxgcf",
+      "rent": "15",
+      "married": false,
+      "bachelor": true,
+      "image": "gyhs",
+      "id": 4
+    }
+  ]
+}

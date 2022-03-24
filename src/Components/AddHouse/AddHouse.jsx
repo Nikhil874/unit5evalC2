@@ -62,7 +62,7 @@ axios.post("http://localhost:8080/houses",form).then(()=>{
           <input value={form.areaCode} type="text" className="areaCode" required placeholder="areaCode" onChange={(e)=>handleChange(e)}/>
           <br />
           <label>rent</label>
-          <input value={form.rent} type="text" className="rent" required placeholder="rent" onChange={(e)=>handleChange(e)}/>
+          <input value={form.rent} type="number" className="rent" required placeholder="rent" onChange={(e)=>handleChange(e)}/>
           <br />
           <label>preferredTenant</label>
           <br />
